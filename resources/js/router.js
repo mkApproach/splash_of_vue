@@ -16,7 +16,7 @@ const routes = [
     component: PhotoList
   },
   {
-    path: '/3',
+    path: '/log',
     component: Login
   }
 ]
