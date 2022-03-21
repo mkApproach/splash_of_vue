@@ -12,7 +12,7 @@ Vue.use(VueRouter)
 // パスとコンポーネントのマッピング
 const routes = [
   {
-    path: '/',
+    path: './',
     component: PhotoList
   },
   {
