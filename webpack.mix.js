@@ -19,9 +19,10 @@ mix.js('resources/js/app.js', 'public/js')
 
 mix.js('resources/js/app.js', 'public/js')
     .js('resources/js/router.js', 'public/js')
-    .vue()
+//    .vue()
     .sass('resources/sass/app.scss', 'public/css')
-    .version();
+    .vue();
+//    .version();
 
 // mix.browserSync({
 //    files: [

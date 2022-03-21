@@ -24,10 +24,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Auth::routes();
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 // APIのURL以外のリクエストに対してはindexテンプレートを返す
 // 画面遷移はフロントエンドのVueRouterが制御する
-Route::get('/splash_of_vue/{any?}', fn() => view('index'))->where('any', '.+');
+Route::get('/{any?}', fn() => view('index'))->where('any', '.+');
