@@ -19,16 +19,15 @@ mix.js('resources/js/app.js', 'public/js')
 
 mix.js('resources/js/app.js', 'public/js')
     .js('resources/js/router.js', 'public/js')
-//    .vue()
+    .vue()
     .sass('resources/sass/app.scss', 'public/css')
-    .vue();
-//    .version();
+    .version();
 
-// mix.browserSync({
-//    files: [
-//      "resources/views/**/*.blade.php",
-//      "public/**/*.*"
-//    ],
-//    proxy: 'http://127.0.0.1:8000'
-// });
+mix.browserSync({
+    files: [
+      "resources/views/**/*.blade.php",
+      "public/**/*.*"
+    ],
+    proxy: 'http://127.0.0.1:8000'
+ });
 
