@@ -16,15 +16,15 @@ const routes = [
     component: PhotoList
   },
   {
-    path: '/log',
+    path: '/login',
     component: Login
   }
 ]
 
 // VueRouterインスタンスを作成する
 const router = new VueRouter({
-  mode: 'history', // ★ 追加
-  base: process.env.BASE_URL,
+//  mode: 'history', // ★ 追加
+//  base: process.env.BASE_URL,
   routes
 })
 
