@@ -16,13 +16,14 @@ const routes = [
     component: PhotoList
   },
   {
-    path: '/login',
+    path: '/log',
     component: Login
   }
 ]
 
 // VueRouterインスタンスを作成する
 const router = new VueRouter({
+  mode: 'history', // ★ 追加
   routes
 })
 
