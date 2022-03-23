@@ -22,7 +22,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 */
 
-Auth::routes();
+//Auth::routes();
 
 // APIのURL以外のリクエストに対してはindexテンプレートを返す
 // 画面遷移はフロントエンドのVueRouterが制御する
