@@ -9,6 +9,8 @@ const app = new Vue({
     el: '#app',
 });
 */
+
+/* 2022.03.23
 import Vue from 'vue'
 // ルーティングの定義をインポートする
 import router from './router'
@@ -21,4 +23,11 @@ new Vue({
   components: { App }, // ルートコンポーネントの使用を宣言する
   template: '<App />' // ルートコンポーネントを描画する
 })
+*/
 
+import Vue from 'vue'
+
+new Vue({
+  el: '#app',
+  template: '<h1>Hello world</h1>'
+})
