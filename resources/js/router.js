@@ -12,19 +12,18 @@ Vue.use(VueRouter)
 // パスとコンポーネントのマッピング
 const routes = [
   {
-    path: '/a',
+    path: '/',
     component: PhotoList
   },
   {
-    path: '/log',
+    path: '/login',
     component: Login
   }
 ]
 
 // VueRouterインスタンスを作成する
 const router = new VueRouter({
-    mode: 'history', // ★ 追加
-    routes
+  routes
 })
 
 // VueRouterインスタンスをエクスポートする
