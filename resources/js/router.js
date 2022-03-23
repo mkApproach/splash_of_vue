@@ -24,7 +24,7 @@ const routes = [
 // VueRouterインスタンスを作成する
 const router = new VueRouter({
   mode: 'history', // ★ 追加
-  base: '/app/public',
+  base: '/splash_of_vue/public',
   routes
 })
 
